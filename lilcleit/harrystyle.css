@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 1em;
+}
+
+body {
+    background-color: #2871b7;
+}
+
+.site {
+    display: grid;
+    grid-template-areas: 'auto';
+    padding: 10em;
+    border: inset 10px #e1b708;
+}
+
+.podequedeks {
+    border: inset 5px #e1b708;
+}
+
+.titulo {
+    text-align: center;
+    /* color: black; */
+    color: color-mix(in srgb,#e1b708 50%, #2871b7);
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.flamengo {
+    align-items: center;
+    justify-content: center;
+}
+
+.podequedeks h1 {
+    text-align: center;
+}
